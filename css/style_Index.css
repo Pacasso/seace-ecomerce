@@ -1,0 +1,191 @@
+/* Hoja de estilos index */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Border sizing sirve para que haga los calculos de como va a ir ubicando todo y quede centrado */
+}
+
+.seace_header{
+    max-width: 100%;
+    /* Anchura maxima */
+    overflow: hidden;
+    /* Overflow de texto hace que cuando llegue al limite de la linea lo pasa al siguiente renglon con el hidden */
+    background-color: #f5f5dc;
+}
+
+.seace_header img{
+    width: 20%;
+    float: left; /* El siguiente elemento que encuentre lo pondra a la izquierda*/
+    margin: 1%;
+}
+.seace_header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vw; /* view port o vw permite trabajar letra responsiva*/
+    color: #d2691e;
+    text-align: center;
+}
+
+.seace_subtitulo{
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.seace_subtitulo h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+    color: #d2691e;
+    text-align: center;
+}
+
+.seace_header nav{
+    width: 50%;
+    margin: 1% auto; /* 1% de margen de arriba a abajo y de izquierda a derecha estará centrado*/
+    display: flex; /* ajusta el tamaño*/
+}
+
+.seace_header a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    color: #d2691e;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.seace_header a:hover{
+    color: #800000;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.seace_banner{
+    max-width: 95%;
+    margin: 2% auto;
+    margin-top: 4%;
+
+}
+
+.seace_banner img{
+    width: 100%;
+}
+
+.seace_contenedor{
+    max-width: 100%;
+    margin: 15% 8%;
+    grid-template-columns: auto auto auto auto;
+    gap: 4%;
+    display: grid;
+    margin-top: 4%;
+}
+
+.seace_galeria{
+    max-width: 100%;
+    padding: 1%;
+    border-radius: 16px;
+    border: 8px;
+    box-shadow: 0 8px 12px #706767;
+}
+
+.seace_galeria img{
+    width: 100%;
+    height: auto;
+    padding: 6%;
+}
+
+.seace_descrip{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+#precio{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #71a33e;
+    font-weight: bold;
+}
+
+.seace_galeria:hover{
+    -webkit-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    transform: scale(1.1);
+}
+
+.seace_footer{
+    max-width: 100%;
+    height: 100%;
+    background-color: #f2e3a9;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.seace_footer p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#d2691e;
+    font-size: 1.3vw;
+    text-align: center;
+
+}
+
+#seace_razonSocial{
+    color: #a52a2a;
+    font-weight: bold;
+}
+
+.seace_redSocial{
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.seace_redSocial  {
+    width: 50%;
+    margin: 1% auto; /* 1% de margen de arriba a abajo y de izquierda a derecha estará centrado*/
+    display: flex; /* ajusta el tamaño*/
+}
+
+.seace_redSocial a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    color: #d2691e;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+.seace_redSocial a:hover{
+    color: #800000;
+}
+
+#facebook{
+    color: #3b5998;
+    margin: 1% auto;
+}
+
+#instagram{
+    color: #DD2A7B;
+    margin: 1% auto;
+}
+
+#whats{
+    color: #25D366;
+    margin: 1% auto;
+}
+
+#youtube{
+    color: #FF0000;
+    margin: 1% auto;
+}
+
+/* glosario de etiquetas para entregar */
