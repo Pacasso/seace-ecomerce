@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* aqui comienza el estilo del contenedor del carrito */
+.seace_contenedor_principal {
+    width: 80%;
+    margin: 5% auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seace_contenedor_principal h2 {
+    color: #d2691e;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.seace_tarjeta_carrito {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 12px #706767;
+    padding: 4%;
+    margin-bottom: 4%;
+}
+
+/* aqui comienza la tabla*/
+.seace_fila_encabezado {
+    display: flex;
+    background-color: #f5f5dc;
+    padding: 2%;
+    border-bottom: 2px solid #d2691e;
+}
+
+.seace_fila_producto {
+    display: flex;
+    padding: 2%;
+    border-bottom: 1px solid #706767;
+}
+
+.seace_columna {
+    width: 25%;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #d2691e;
+}
+
+.seace_columna#precio_verde {
+    color: #71a33e;
+    font-weight: bold;
+}
+
+/* aqui comienza la seccion de totales y botones */
+#fila_total {
+    padding: 3%;
+    text-align: right;
+}
+
+#total_texto {
+    font-size: 2.5vw;
+    color: #71a33e;
+}
+
+.seace_acciones_carrito {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+}
+
+.seace_btn_accion {
+    background-color: #f5f5dc;
+    color: #d2691e;
+    padding: 2%;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border-radius: 8px;
+    border: 2px solid #d2691e;
+    text-align: center;
+}
+
+.seace_btn_accion:hover {
+    background-color: #d2691e;
+    color: #ffffff;
+}
+
+.seace_btn_accion#btn_rojo {
+    color: #800000;
+    border-color: #800000;
+}
+
+.seace_btn_accion#btn_rojo:hover {
+    background-color: #800000;
+    color: #ffffff;
+}
+
+.seace_btn_accion#btn_exito {
+    background-color: #71a33e;
+    color: #ffffff;
+    border-color: #71a33e;
+}
+
+.seace_btn_accion#btn_exito:hover {
+    background-color: #5c8632;
+}
+
+/* aqui comienza el estilo del carrito vacio */
+.seace_estado_vacio {
+    text-align: center;
+    padding: 1%;
+}
+
+#icono_vacio {
+    font-size: 5vw;
+    color: #706767;
+    margin-bottom: 2%;
+}
+
+.seace_texto_vacio {
+    font-size: 2vw;
+    color: #706767;
+    margin-bottom: 4%;
+}
+
+.seace_acciones_vacio {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* aqui termina el estilo del carrito vacio */

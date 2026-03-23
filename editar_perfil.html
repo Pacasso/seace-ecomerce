@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil - Seace Jarcieria</title>
+    <link rel="stylesheet" href="css/style_Index.css">
+    <link rel="stylesheet" href="css/style_editar_perfil.css">
+    <script src="https://kit.fontawesome.com/a5e9a07ad9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="seace_header">
+        <img src="img/logo_transparente.png" alt="Logo Jarcieria">
+        <h1> Jarcieria </h1>
+        <div class="clearfix"></div>
+        <nav>
+            <a href="index.html">
+                <i class="fas fa-home"></i> Inicio
+            </a>
+            <a href="perfil.html">
+                <i class="fas fa-user"></i> Mi Perfil
+            </a>
+            <a href="index.html" class="seace_btn_salir">
+               <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+            </a>
+        </nav>
+    </header>
+    <div class="seace_perfil_contenedor">
+        <h2 class="seace_perfil_titulo">Edita tu Información</h2>
+
+        <div class="seace_perfil_tarjeta">
+            <div class="seace_tarjeta_encabezado">
+                <i class="fas fa-pen"></i> Actualizar Datos
+            </div>
+
+            <form action="perfil.html">
+                <p class="seace_campo_formulario">
+                    <i class="seace_etiqueta_input">Nombre Completo:</i><br>
+                    <input type="text" class="seace_input" value="Cliente Prueba" required>
+                </p>
+
+                <p class="seace_campo_formulario">
+                    <i class="seace_etiqueta_input">Teléfono:</i><br>
+                    <input type="tel" class="seace_input" value="5512345678" required>
+                </p>
+
+                <p class="seace_campo_formulario">
+                    <i class="seace_etiqueta_input">Dirección de Envío:</i><br>
+                    <input type="text" class="seace_input" value="Calle Falsa 123" required>
+                </p>
+
+                <div class="seace_contenedor_boton">
+                    <input type="submit" value="Guardar Cambios" class="seace_btn_enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="seace_footer">
+        <p id="seace_razonSocial"> LimpiaMax S.A. de C.V.</p>
+        <p>
+            Josefa Ortíz de Dominguez 169 S/N Loma Bonita <br>
+            Teléfono: 55-63-47-90-96 <br>
+            &#169;Codevelopers <br>
+            <nav>
+            <div class="seace_redSocial">
+                <a href="#">
+                    <i class="fa-brands fa-facebook" id="facebook"></i>Facebook
+                </a>
+                 <a href="#">
+                    <i class="fa-brands fa-instagram" id="instagram"></i>Instagram
+                </a>
+                 <a href="#">
+                    <i class="fa-brands fa-whatsapp" id="whats"></i>Whatsapp
+                </a>
+                 <a href="#">
+                    <i class="fa-brands fa-youtube" id="youtube"></i>YouTube
+                </a>
+            </div>
+            </nav>
+        </p>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Carrito - Seace Jarcieria</title>
+    <link rel="stylesheet" href="css/style_Index.css">
+    <link rel="stylesheet" href="css/style_carrito.css">
+    <script src="https://kit.fontawesome.com/a5e9a07ad9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="seace_header">
+        <img src="img/logo_transparente.png" alt="Logo Jarcieria">
+        <h1> Jarcieria </h1>
+        <div class="clearfix"></div>
+        <nav>
+            <a href="index.html">
+                <i class="fas fa-home"></i> Inicio
+            </a>
+            <a href="catalogo.html">
+                <i class="fas fa-book"></i> Catalogo
+            </a>
+            <a href="ofertas.html">
+                <i class="fas fa-tag"></i> Ofertas
+            </a>
+            <a href="iniciar_sesion.html">
+                <i class="fas fa-circle-user"></i> Iniciar Sesión
+            </a>
+        </nav>
+    </header>
+
+    <div class="seace_contenedor_principal">
+        <h2><i class="fas fa-shopping-cart"></i> Tu Carrito de Compras</h2>
+
+        <div class="seace_tarjeta_carrito">
+            
+            <div class="seace_fila_encabezado">
+                <p class="seace_columna">Producto</p>
+                <p class="seace_columna">Precio Unitario</p>
+                <p class="seace_columna">Cantidad</p>
+                <p class="seace_columna">Subtotal</p>
+            </div>
+
+            <div class="seace_fila_producto">
+                <p class="seace_columna"><i>Limpiador para pisos de madera</i></p>
+                <p class="seace_columna" id="precio_verde">$150.00</p>
+                <p class="seace_columna">2</p>
+                <p class="seace_columna" id="precio_verde">$300.00</p>
+            </div>
+
+            <div class="seace_fila_producto">
+                <p class="seace_columna"><i>Removedor de sarro y cal</i></p>
+                <p class="seace_columna" id="precio_verde">$85.00</p>
+                <p class="seace_columna">1</p>
+                <p class="seace_columna" id="precio_verde">$85.00</p>
+            </div>
+
+            <div id="fila_total">
+                <p id="total_texto">Total a pagar: $385.00</p>
+            </div>
+
+            <div class="seace_acciones_carrito">
+                <a href="carrito_vacio.html" class="seace_btn_accion" id="btn_rojo">
+                    <i class="fas fa-trash-alt"></i> Vaciar Carrito
+                </a>
+                <a href="index.html" class="seace_btn_accion">
+                    <i class="fas fa-store"></i> Seguir Comprando
+                </a>
+                <a href="compras.html" class="seace_btn_accion" id="btn_exito">
+                    <i class="fas fa-check-circle"></i> Finalizar Compra
+                </a>
+            </div>
+
+        </div>
+    </div>
+        <!-- pie de página -->
+         <footer class="seace_footer">
+            <p id="seace_razonSocial"> LimpiaMax S.A. de C.V.</p>
+            <p>
+                Josefa Ortíz de Dominguez 169 S/N Loma Bonita <br>
+                Teléfono: 55-63-47-90-96 <br>
+                &#169;Codevelopers <br>
+               <nav>
+                <div class="seace_redSocial">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook" id="facebook"></i>Facebook
+                    </a>
+                     <a href="#">
+                        <i class="fa-brands fa-instagram" id="instagram"></i>Instagram
+                    </a>
+                     <a href="#">
+                        <i class="fa-brands fa-whatsapp" id="whats"></i>Whatsapp
+                    </a>
+                     <a href="#">
+                        <i class="fa-brands fa-youtube" id="youtube"></i>YouTube
+                    </a>
+                </div>
+               </nav>
+            </p>
+         </footer>
+    </body>
+</html>

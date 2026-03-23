@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* aqui comienza el contenedor general */
+.seace_perfil_contenedor {
+    width: 70%;
+    margin: 5% auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seace_perfil_titulo {
+    color: #d2691e;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+
+/* aqui comienza la tarjeta blanca */
+.seace_perfil_tarjeta {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 12px #706767;
+    padding: 4%;
+    margin-bottom: 4%;
+}
+
+.seace_tarjeta_encabezado {
+    color: #d2691e;
+    font-size: 2vw;
+    margin-bottom: 3%;
+    border-bottom: 2px solid #f5f5dc;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+/* aqui comienza el formulario */
+.seace_campo_formulario {
+    margin-bottom: 3%;
+}
+
+.seace_etiqueta_input {
+    font-style: normal;
+    font-weight: bold;
+    color: #d2691e;
+    font-size: 1.2vw;
+}
+
+.seace_input {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2vw;
+    padding: 1.5%;
+    border: 1px solid #d2691e;
+    border-radius: 6px;
+    margin-top: 1%;
+}
+
+.seace_contenedor_boton {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.seace_btn_enviar {
+    background-color: #f5f5dc;
+    color: #d2691e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 1.5% 3%;
+    cursor: pointer;
+    border: 1px solid #d2691e;
+    border-radius: 6px;
+}
+
+.seace_btn_enviar:hover {
+    background-color: #d2691e;
+    color: #ffffff;
+}
+
+/* ajuste para el boton de cerrar sesion en la barra de navegacion */
+.seace_btn_salir {
+    color: #800000;
+}
+/* aqui termina el formulario */

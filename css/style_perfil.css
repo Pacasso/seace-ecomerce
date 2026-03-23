@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* aqui comienza el estilo del contenedor general */
+.seace_perfil_contenedor {
+    width: 70%;
+    margin: 5% auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seace_perfil_titulo {
+    color: #d2691e;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+
+/* aqui comienzan las tarjetas blancas */
+.seace_perfil_tarjeta {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 12px #706767;
+    padding: 4%;
+    margin-bottom: 4%;
+}
+
+.seace_tarjeta_encabezado {
+    color: #d2691e;
+    font-size: 2vw;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #f5f5dc;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+.seace_perfil_dato {
+    font-size: 1.2vw;
+    margin-bottom: 2%;
+    color: #000000;
+}
+
+.seace_etiqueta {
+    font-style: normal;
+    font-weight: bold;
+    color: #d2691e;
+}
+
+.seace_btn_accion {
+    display: inline-block;
+    background-color: #f5f5dc;
+    color: #d2691e;
+    padding: 1.5% 3%;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #d2691e;
+    border-radius: 6px;
+    margin-top: 2%;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.seace_btn_accion:hover {
+    background-color: #d2691e;
+    color: #ffffff;
+}
+
+/* para sobreescribir el color del boton cerrar sesion del header si es necesario */
+.seace_btn_salir {
+    color: #800000;
+}
+
+/* aqui comienza el estilo de los tickets de compra */
+.seace_ticket {
+    border: 1px solid #d2691e;
+    border-radius: 8px;
+    padding: 2%;
+    margin-bottom: 3%;
+    background-color: #f5f5dc;
+}
+
+.seace_ticket_encabezado {
+    color: #d2691e;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 1%;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.seace_ticket_fecha {
+    color: #706767;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.seace_ticket_total {
+    float: right;
+    color: #71a33e;
+    font-style: normal;
+}
+
+.seace_ticket_cuerpo {
+    margin-top: 1.5%;
+    padding-left: 1%;
+}
+
+.seace_detalle_item {
+    font-size: 1.1vw;
+    padding: 0.5% 0%;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.seace_img_miniatura {
+    width: 3vw;
+    height: auto;
+    margin-right: 1vw;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #706767;
+}
+
+.seace_icono_check {
+    color: #d2691e;
+    margin-right: 1vw;
+}
+
+.seace_nombre_producto {
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.seace_precio_unitario {
+    color: #706767;
+    font-style: normal;
+}
+/* aqui termina el estilo de los tickets de compra */

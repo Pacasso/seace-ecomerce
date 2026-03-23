@@ -1,0 +1,120 @@
+/* Hoja de estilos para el inicio de sesión */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.seace_sesion{
+    max-width: 100%;
+    background-color: #f5f5dc;
+    overflow: hidden;
+}
+
+.seace_sesion img{
+    width: 14%;
+    display: flex;
+    margin: 1% auto;
+}
+
+.seace_formulario{
+    max-width: 40%;
+    margin: 5% auto;
+    box-shadow: 0 8px 12px #706767;
+}
+
+.seace_formulario form{
+    max-width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+
+.seace_formulario input{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2vw;
+    padding: 1.5%;
+    border: 1px solid #d2691e;
+    border-radius: 6px;
+}
+
+.seace_formulario h3{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 4%;
+    color: #d2691e;
+}
+
+.seace_formulario_crear_cuenta{
+        max-width: 40%;
+    margin: 5% auto;
+    box-shadow: 0 8px 12px #706767;
+}
+
+.seace_formulario_crear_cuenta form{
+    max-width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+
+.seace_formulario_crear_cuenta input{
+        width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2vw;
+    padding: 1.5%;
+    border: 1px solid #d2691e;
+    border-radius: 6px;
+}
+
+.seace_formulario_crear_cuenta h3{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 4%;
+    color: #d2691e;
+}
+
+.seace_confirmacion{
+    width: 100%;
+    padding: 5%;
+}
+
+.seace_confirmacion h2{
+    color: #d2691e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    
+
+}
+
+#enviar{
+    background-color: #f5f5dc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin:  5% 0;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: #d2691e;
+}
+
+
+
+#crear_cuenta{
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#crear_cuenta:hover{
+    color: #d2691e;
+}
+

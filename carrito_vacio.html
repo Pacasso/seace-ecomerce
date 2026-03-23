@@ -1,58 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seace Jarcieria</title>
+    <title>Carrito Vacío - Seace Jarcieria</title>
     <link rel="stylesheet" href="css/style_Index.css">
-    <link rel="stylesheet" href="css/style_detalle.css">
+    <link rel="stylesheet" href="css/style_carrito.css">
     <script src="https://kit.fontawesome.com/a5e9a07ad9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Encabezado principal -->
     <header class="seace_header">
-        <img src="img/logo_transparente.png" alt="">
+        <img src="img/logo_transparente.png" alt="Logo Jarcieria">
         <h1> Jarcieria </h1>
         <div class="clearfix"></div>
         <nav>
             <a href="index.html">
-                <i class="fas fa-home"></i>Inicio
+                <i class="fas fa-home"></i> Inicio
             </a>
-            <a href="catalogo.html">
-                <i class="fas fa-book"></i>Catalogo
+            <a href="index.html">
+                <i class="fas fa-book"></i> Catalogo
             </a>
             <a href="ofertas.html">
-                <i class="fas fa-tag"></i>Ofertas
+                <i class="fas fa-tag"></i> Ofertas
             </a>
             <a href="iniciar_sesion.html">
-               <i class="fas fa-circle-user"></i> Iniciar Sesión
+                <i class="fas fa-user-circle"></i> Iniciar sesion
             </a>
-            <!-- Enlaces a diferentes recursos -->
         </nav>
-        <!-- barra de navegación -->
-        <!-- Contenedor de enlaces NO USAR DIV-->
     </header>
-    <!-- Detalle prooducto -->
-     <div class="seace_detail">
-            <!-- primera columna -->
-             <img src="img/salvo.png" alt="Botella de detergente liquido Salvo">
-             <div class="seace_desc_detail">
-                <p id="nombre_detalle">Detergente liquido para trastes Salvo <br> <br></p>
-                <p>
-                    Aroma a limón <br>
-                    Cantidad 1 litro<br>
-                    Quita manchas de grasa y elimina olores <br>
-                    Espuma abundante <br>
-                </p> <br>
-                <p id="precio_detalle">$65 <br></p> <br>
-                <p> <i class="fas fa-truck"></i> Envios gratis en toda la república <br></p> <br>
-                <button id="boton_compra" type="button" onclick="alert('Próximamente')"> <i class="fas fa-cart-shopping"></i> Comprar Ahora</button>
-             </div>
-     </div>
- <!-- pie de página -->
+
+    <div class="seace_contenedor_principal">
+        <h2><i class="fas fa-shopping-cart"></i> Tu Carrito de Compras</h2>
+        <div class="seace_tarjeta_carrito">
+            <div class="seace_estado_vacio">
+                <i class="fas fa-box-open" id="icono_vacio"></i>
+                <p class="seace_texto_vacio">Tu carrito está vacío.</p>
+            
+             <div class="seace_acciones_vacio">
+                 <a href="index.html" class="seace_btn_accion">
+                     <i class="fas fa-store"></i> Ir al inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- pie de página -->
          <footer class="seace_footer">
-            <br>
-            <br>
             <p id="seace_razonSocial"> LimpiaMax S.A. de C.V.</p>
             <p>
                 Josefa Ortíz de Dominguez 169 S/N Loma Bonita <br>
@@ -76,6 +69,5 @@
                </nav>
             </p>
          </footer>
-
-</body>
+    </body>
 </html>

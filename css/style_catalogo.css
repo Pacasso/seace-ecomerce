@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* aqui comienza el contenedor general del catalogo */
+.seace_catalogo_contenedor {
+    width: 90%;
+    margin: 5% auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seace_catalogo_contenedor h1 {
+    color: #d2691e;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* aqui comienzan las secciones de categoria */
+.seace_categoria_seccion {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.seace_categoria_seccion h2 {
+    color: #d2691e;
+    background-color: #ffffff;
+    font-size: 2.5vw;
+    border-bottom: 2px solid #d2691e;
+    padding: 1.5% 2%;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #706767;
+}
+
+/* aqui comienza el grid de productos */
+.seace_grid_productos {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 4%;
+}
+
+.seace_galeria {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 12px #706767;
+    padding: 4%;
+    text-align: center;
+}
+
+.seace_galeria:hover {
+    transform: scale(1.05);
+    transition: all 250ms ease;
+}
+
+.seace_galeria img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.seace_descrip p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-top: 2%;
+}
+
+/* clases especificas para precio y stock */
+.seace_descrip .seace_precio {
+    color: #71a33e;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 4%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.seace_descrip .seace_stock {
+    color: #706767;
+    font-size: 1vw;
+    margin-top: 2%;
+}
+/* aqui termina el grid de productos */

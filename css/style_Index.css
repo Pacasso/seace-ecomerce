@@ -41,7 +41,7 @@
 }
 
 .seace_header nav{
-    width: 50%;
+    width: 80%;
     margin: 1% auto; /* 1% de margen de arriba a abajo y de izquierda a derecha estará centrado*/
     display: flex; /* ajusta el tamaño*/
 }
